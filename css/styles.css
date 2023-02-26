@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #D3C0D2;
+  position: relative;
+  overflow: hidden;
+}
+
+.bubble1 {
+  background-color: #9D659A;
+  width: 950px;
+  height: 950px;
+  opacity: 0.2;
+  border-radius: 25% 75% 72% 28%/48% 64% 36% 52%;
+  position: absolute;
+  right: -52px;
+  top: -230px;
+}
+
+.bubble2 {
+  background-color: #9D659A;
+  width: 560px;
+  height: 560px;
+  opacity: 0.2;
+  border-radius: 25% 75% 72% 28%/48% 64% 36% 52%;
+  position: absolute;
+  left: -38px;
+  bottom: 80px;
+}
+
+.bubble-card {
+  background-color: #9D659A;
+  width: 650px;
+  height: 650px;
+  opacity: 0.3;
+  border-radius: 25% 75% 72% 28%/48% 64% 36% 52%;
+  position: absolute;
+  left: 480px;
+  top: 130px;
+}
+
+.title-pag {
+  text-align: center;
+  font-size: 90px;
+  padding: 40px 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 37%;
+  height: 700px;
+  background-color: #D0FFD6;
+  border-radius: 25% 75% 72% 28%/48% 64% 36% 52%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  font-size: 30px;
+}
+
+.article {
+  font-size: 30px;
+  background-color: #D5E2BC;
+  height: 70%;
+  width: 70%;
+  border-radius: 25% 75% 72% 28%/48% 64% 36% 52%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 6px;
+  position: absolute;
+  background-color: #9D659A;
+  padding: 10px;
+  border-color: #9D659A;
+}
+.btn--hidden {
+  display: none;
+}
+.btn--next {
+  right: 800px;
+  bottom: 100px;
+  border-radius: 0% 100% 100% 0%/39% 55% 45% 61%;
+}
+.btn--back {
+  bottom: 100px;
+  left: 800px;
+  border-radius: 100% 0% 0% 100%/25% 55% 45% 75%;
+}
+
+.image {
+  width: 180px;
+}
+
+/*# sourceMappingURL=styles.css.map */
